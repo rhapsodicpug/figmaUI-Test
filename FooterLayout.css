@@ -1,0 +1,24 @@
+/* External CSS file for FooterLayout styling */
+
+.FooterLayout {
+  display: flex;
+  flex-direction: column;
+  width: 1241px;
+  height: auto;
+  background-color: #191a23;
+  padding: 55px 60px 50px 60px;
+  gap: 50px;
+  color: #ffffff;
+  font-family: 'Space Grotesk, sans-serif';
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.FooterLayout .content {
+  display: flex;
+  flex-direction: row;
+  gap: 154px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
